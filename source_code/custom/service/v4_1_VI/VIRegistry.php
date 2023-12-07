@@ -1,19 +1,6 @@
 <?php
 if(!defined('sugarEntry'))define('sugarEntry', true);
-/*********************************************************************************
- * This file is part of package GSync for Gmail.
- * 
- * Author : Variance InfoTech PVT LTD (http://www.varianceinfotech.com)
- * All rights (c) 2020 by Variance InfoTech PVT LTD
- *
- * This Version of GSync for Gmail is licensed software and may only be used in 
- * alignment with the License Agreement received with this Software.
- * This Software is copyrighted and may not be further distributed without
- * written consent of Variance InfoTech PVT LTD
- * 
- * You can contact via email at info@varianceinfotech.com
- * 
- ********************************************************************************/
+ 
 require_once('service/v4_1/registry.php');
 class registry_v4_1_VI extends registry_v4_1 {
     public function __construct($serviceClass) {
